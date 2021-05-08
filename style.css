@@ -1,0 +1,94 @@
+/* importing font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,900;1,200;1,400;1,900&display=swap');
+
+/* Global styles start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html {
+    background-color: rgb(236, 240, 241);
+}
+
+body {
+    margin: 0px auto;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: left;
+    color: black;
+}
+
+li {
+    font-size: 1.5rem;
+}
+/* Global styles end */
+
+/* Title area styles start */
+
+.title-area {
+    height: 200px;
+    width: 100%;
+    background-image: url('./img/pexels-narcisa-aciko-200.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-area h1 {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+/* Title area styles end */
+
+/* button section styles start*/
+.btn-wrp {
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+button {
+    width: 200px;
+    height: 3rem;
+    border: none;
+    background: green;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    box-shadow: 0px 8px 8px -8px black;
+}
+
+button:hover {
+    filter: brightness(110%);
+    box-shadow: 0px 10px 10px -8px black;
+} 
+/* button section styles end*/
+
+/* List section styles start */
+.list-wrp {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.list-wrp ul {
+    width: 100%;   
+}
+
+.list-wrp li {
+    width: 100%;
+    list-style: none;
+}
+
+.list-wrp li:nth-child(even) {
+    background-color: rgb(223, 223, 223);
+}
+/* List section styles end */
