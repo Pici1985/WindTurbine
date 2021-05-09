@@ -12,7 +12,9 @@ Thoughtprocess of building the app:
 
 Update ideas: 
 
+  - the design of the app should be improved az it`s not fully resposive
   - there could be a checkbox on each list item individually wich would on check delete the line if theres no damage to only keep the damaged ones 
-  - updated list data could be turned to a JSON array which contains the serial nr and the damage type and sent to the repair team  
+  - updated list data could be turned to a JSON array which contains the serial nr and the damage type and sent to the repair team 
+   
 
      
